@@ -85,9 +85,9 @@ plugins.push(
 
 module.exports = merge(common, {
   webpack: {
-    configure: {
-      plugins,
-    },
+    // configure: {
+    // },
+    plugins,
   },
   jest: {
     configure: {

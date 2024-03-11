@@ -81,6 +81,9 @@ const config = {
     },
   },
   h5: {
+    devServer: {
+      hot: false  // 这一行
+    },
     publicPath: "/",
     staticDirectory: "static",
     postcss: {
